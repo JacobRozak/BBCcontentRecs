@@ -1,0 +1,84 @@
+[{
+    "sku": "0",
+    "group_id": "0",
+    "name":"cat1",
+    "url":"https://3ae7-185-52-146-1.eu.ngrok.io/news/article1",
+    "price":"100",
+    "in_stock":"true",
+    "image_url":"https://static01.nyt.com/images/2019/10/01/science/00SCI-CATS1/merlin_102054072_34962289-a2a4-4c52-9969-4b2719347e76-superJumbo.jpg?quality=75&auto=webp",
+    "categories":"cats",
+    "keywords":"cat"
+},{
+    "sku": "1",
+    "group_id": "1",
+    "name":"dog1",
+    "url":"https://3ae7-185-52-146-1.eu.ngrok.io/news/article2",
+    "price":"100",
+    "in_stock":"true",
+    "image_url":"https://static01.nyt.com/images/2022/05/10/science/28DOGS-BEHAVIOR1/28DOGS-BEHAVIOR1-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
+    "categories":"dogs",
+    "keywords":"dog"
+},{
+    "sku": "2",
+    "group_id": "0",
+    "name":"cat2",
+    "url":"https://3ae7-185-52-146-1.eu.ngrok.io/news/article3",
+    "price":"100",
+    "in_stock":"true",
+    "image_url":"https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322716/relaxed-ginger-cat.jpg",
+    "categories":"cats",
+    "keywords":"cat"
+},{
+    "sku": "3",
+    "group_id": "1",
+    "name":"dog2",
+    "url":"https://3ae7-185-52-146-1.eu.ngrok.io/news/article4",
+    "price":"100",
+    "in_stock":"true",
+    "image_url":"https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/1180/cached.offlinehbpl.hbpl.co.uk/news/NST/guide-dog-puppy.jpg",
+    "categories":"dogs",
+    "keywords":"dog"
+},{
+    "sku": "4",
+    "group_id": "0",
+    "name":"cat3",
+    "url":"https://3ae7-185-52-146-1.eu.ngrok.io/news/article5",
+    "price":"100",
+    "in_stock":"true",
+    "image_url":"https://www.animalfriends.co.uk/siteassets/media/images/article-images/cat-articles/51_afi_article1_the-secret-language-of-cats.png",
+    "categories":"cats",
+    "keywords":"cat"
+},
+{
+    "sku": "5",
+    "group_id": "1",
+    "name":"dog3",
+    "url":"https://3ae7-185-52-146-1.eu.ngrok.io/sport/article1",
+    "price":"100",
+    "in_stock":"true",
+    "image_url":"https://cdn.vox-cdn.com/thumbor/hJqwGRBcPJkbspVRe9gw1B8XQgc=/0x87:1000x754/1820x1213/filters:focal(0x87:1000x754):format(webp)/cdn.vox-cdn.com/assets/951926/football-dog.jpg",
+    "categories":"dogs",
+    "keywords":"dog"
+},{
+    "sku": "6",
+    "group_id": "0",
+    "name":"cat4",
+    "url":"https://3ae7-185-52-146-1.eu.ngrok.io/sport/article2",
+    "price":"100",
+    "in_stock":"true",
+    "image_url":"https://ultrapet.com/wp-content/uploads/2017/03/Cat-BBALL.jpg",
+    "categories":"cats",
+    "keywords":"cat"
+},{
+    "sku": "7",
+    "group_id": "0",
+    "name":"dog4",
+    "url":"https://3ae7-185-52-146-1.eu.ngrok.io/sport/article3",
+    "price":"100",
+    "in_stock":"true",
+    "image_url":"https://www.dogtime.com/assets/uploads/2018/04/dogs-good-at-sports-1.jpg",
+    "categories":"dogs",
+    "keywords":"dog"
+}
+
+]
