@@ -28,7 +28,7 @@
     "post_type":"dog"
 },{
     "id": "4",
-    "name":"Secret lives of cats",
+    "title":"Secret lives of cats",
     "url":"https://839a-2a02-6b61-606c-0-3dde-ecd4-a250-2dc2.eu.ngrok.io/news/article5",
     "publish_time":"15/08/2022",
     "categories":"cats",
@@ -36,21 +36,21 @@
 },
 {
     "id": "5",
-    "name":"Cats Like People! (Some People, Anyway)",
+    "title":"Cats Like People! (Some People, Anyway)",
     "url":"https://839a-2a02-6b61-606c-0-3dde-ecd4-a250-2dc2.eu.ngrok.io/sport/article1",
     "publish_time":"15/08/2022",
     "categories":"dogs",
     "post_type":"dog"
 },{
     "id": "6",
-    "name":"Final Four in the Home State!",
+    "title":"Final Four in the Home State!",
     "url":"https://839a-2a02-6b61-606c-0-3dde-ecd4-a250-2dc2.eu.ngrok.io/sport/article2",
     "publish_time":"15/08/2022",
     "categories":"cats",
     "post_type":"cat"
 },{
     "id": "7",
-    "name":"Paw-mazing Pets: These Dogs Are Way Better At Sports Than Most Of Us [VIDEOS]",
+    "title":"Paw-mazing Pets: These Dogs Are Way Better At Sports Than Most Of Us [VIDEOS]",
     "url":"https://839a-2a02-6b61-606c-0-3dde-ecd4-a250-2dc2.eu.ngrok.io/sport/article3",
     "publish_time":"15/08/2022",
     "categories":"dogs",
