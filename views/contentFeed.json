@@ -1,59 +1,74 @@
-[{
+[
+  {
     "id": "0",
-    "title":"Cats Like People! (Some People, Anyway)",
-    "url":"https://839a-2a02-6b61-606c-0-3dde-ecd4-a250-2dc2.eu.ngrok.io/news/article1",
-    "publish_time":"15/08/2022",
-    "categories":"cats",
-    "post_type":"cat"
-},{
+    "title": "Cats Like People! (Some People, Anyway)",
+    "url": "https://839a-2a02-6b61-606c-0-3dde-ecd4-a250-2dc2.eu.ngrok.io/news/article1",
+    "publish_time": "15/08/2022",
+    "categories": "cats",
+    "image_url": "https://static01.nyt.com/images/2019/10/01/science/00SCI-CATS1/merlin_102054072_34962289-a2a4-4c52-9969-4b2719347e76-superJumbo.jpg?quality=75&auto=webp",
+    "post_type": "cat"
+  },
+  {
     "id": "1",
-    "title":"They’re All Good Dogs, and It Has Nothing to Do With Their Breed",
-    "url":"https://839a-2a02-6b61-606c-0-3dde-ecd4-a250-2dc2.eu.ngrok.io/news/article2",
-    "publish_time":"15/08/2022",
-    "categories":"dogs",
-    "post_type":"dog"
-},{
+    "title": "They’re All Good Dogs, and It Has Nothing to Do With Their Breed",
+    "url": "https://839a-2a02-6b61-606c-0-3dde-ecd4-a250-2dc2.eu.ngrok.io/news/article2",
+    "publish_time": "15/08/2022",
+    "categories": "dogs",
+    "image_url": "https://static01.nyt.com/images/2022/05/10/science/28DOGS-BEHAVIOR1/28DOGS-BEHAVIOR1-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
+    "post_type": "dog"
+  },
+  {
     "id": "2",
-    "title":"Cat lovers, this is how a feline friend can boost your health",
-    "url":"https://839a-2a02-6b61-606c-0-3dde-ecd4-a250-2dc2.eu.ngrok.io/news/article3",
-    "publish_time":"15/08/2022",
-    "categories":"cats",
-    "post_type":"cat"
-},{
+    "title": "Cat lovers, this is how a feline friend can boost your health",
+    "url": "https://839a-2a02-6b61-606c-0-3dde-ecd4-a250-2dc2.eu.ngrok.io/news/article3",
+    "publish_time": "15/08/2022",
+    "categories": "cats",
+    "image_url": "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322716/relaxed-ginger-cat.jpg",
+    "post_type": "cat"
+  },
+  {
     "id": "3",
-    "title":"Income at Guide Dogs reaches record high",
-    "url":"https://839a-2a02-6b61-606c-0-3dde-ecd4-a250-2dc2.eu.ngrok.io/news/article4",
-    "publish_time":"15/08/2022",
-    "categories":"dogs",
-    "post_type":"dog"
-},{
+    "title": "Income at Guide Dogs reaches record high",
+    "url": "https://839a-2a02-6b61-606c-0-3dde-ecd4-a250-2dc2.eu.ngrok.io/news/article4",
+    "publish_time": "15/08/2022",
+    "categories": "dogs",
+    "image_url": "https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/1180/cached.offlinehbpl.hbpl.co.uk/news/NST/guide-dog-puppy.jpg",
+    "post_type": "dog"
+  },
+  {
     "id": "4",
-    "title":"Secret lives of cats",
-    "url":"https://839a-2a02-6b61-606c-0-3dde-ecd4-a250-2dc2.eu.ngrok.io/news/article5",
-    "publish_time":"15/08/2022",
-    "categories":"cats",
-    "post_type":"cat"
-},
-{
+    "title": "Secret lives of cats",
+    "url": "https://839a-2a02-6b61-606c-0-3dde-ecd4-a250-2dc2.eu.ngrok.io/news/article5",
+    "publish_time": "15/08/2022",
+    "categories": "cats",
+    "image_url": "https://www.animalfriends.co.uk/siteassets/media/images/article-images/cat-articles/51_afi_article1_the-secret-language-of-cats.png",
+    "post_type": "cat"
+  },
+  {
     "id": "5",
-    "title":"Cats Like People! (Some People, Anyway)",
-    "url":"https://839a-2a02-6b61-606c-0-3dde-ecd4-a250-2dc2.eu.ngrok.io/sport/article1",
-    "publish_time":"15/08/2022",
-    "categories":"dogs",
-    "post_type":"dog"
-},{
+    "title": "Cats Like People! (Some People, Anyway)",
+    "url": "https://839a-2a02-6b61-606c-0-3dde-ecd4-a250-2dc2.eu.ngrok.io/sport/article1",
+    "publish_time": "15/08/2022",
+    "categories": "dogs",
+    "image_url": "https://cdn.vox-cdn.com/thumbor/hJqwGRBcPJkbspVRe9gw1B8XQgc=/0x87:1000x754/1820x1213/filters:focal(0x87:1000x754):format(webp)/cdn.vox-cdn.com/assets/951926/football-dog.jpg",
+    "post_type": "dog"
+  },
+  {
     "id": "6",
-    "title":"Final Four in the Home State!",
-    "url":"https://839a-2a02-6b61-606c-0-3dde-ecd4-a250-2dc2.eu.ngrok.io/sport/article2",
-    "publish_time":"15/08/2022",
-    "categories":"cats",
-    "post_type":"cat"
-},{
+    "title": "Final Four in the Home State!",
+    "url": "https://839a-2a02-6b61-606c-0-3dde-ecd4-a250-2dc2.eu.ngrok.io/sport/article2",
+    "publish_time": "15/08/2022",
+    "categories": "cats",
+    "image_url": "https://ultrapet.com/wp-content/uploads/2017/03/Cat-BBALL.jpg",
+    "post_type": "cat"
+  },
+  {
     "id": "7",
-    "title":"Paw-mazing Pets: These Dogs Are Way Better At Sports Than Most Of Us [VIDEOS]",
-    "url":"https://839a-2a02-6b61-606c-0-3dde-ecd4-a250-2dc2.eu.ngrok.io/sport/article3",
-    "publish_time":"15/08/2022",
-    "categories":"dogs",
-    "post_type":"dog"
-}
+    "title": "Paw-mazing Pets: These Dogs Are Way Better At Sports Than Most Of Us [VIDEOS]",
+    "url": "https://839a-2a02-6b61-606c-0-3dde-ecd4-a250-2dc2.eu.ngrok.io/sport/article3",
+    "publish_time": "15/08/2022",
+    "categories": "dogs",
+    "image_url": "https://www.dogtime.com/assets/uploads/2018/04/dogs-good-at-sports-1.jpg",
+    "post_type": "dog"
+  }
 ]

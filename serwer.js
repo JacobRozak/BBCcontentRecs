@@ -9,7 +9,8 @@ const uuidv4 = require("uuid/v4");
 const router = express.Router();
 const port = 3001;
 const DYAPI = require("./DYAPI");
-const reportClickRouter = require('./reportClick');
+const reportClickRouter = require("./reportClick");
+const { fstat } = require("fs");
 
 var views = path.join(__dirname, "views");
 var views1 = path.join(__dirname, "views1");
@@ -83,7 +84,7 @@ app.get("/news", async (req, res) => {
   res.sendFile(path.join(views, "index.html"));
 });
 
-app.use('/reportClick', reportClickRouter);
+app.use("/reportClick", reportClickRouter);
 
 app.get("/news/article1", (req, res) => {
   res.sendFile(path.join(views, "article1.html"));
@@ -121,6 +122,10 @@ app.get("/sport/article5", (req, res) => {
 });
 app.get("/feed", (req, res) => {
   res.sendFile(path.join(views, "feed.json"));
+});
+
+app.get("/recs", (req, res) => {
+  res.sendFile(path.join(views, "recs.json"));
 });
 
 app.listen(port, () => {
