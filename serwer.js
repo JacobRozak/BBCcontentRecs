@@ -15,6 +15,16 @@ const { fstat } = require("fs");
 var views = path.join(__dirname, "views");
 var views1 = path.join(__dirname, "views1");
 
+const callApi = async (req) => {
+  req.dyContext.page.type = "HOMEPAGE";
+  const apiResponse = await DYAPI.choose(
+    req.userId,
+    req.sessionId,
+    req.dyContext,
+    ["BBC Recommendations Campaign"]
+  );
+};
+
 app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -73,14 +83,14 @@ app.use((req, _res, next) => {
   next();
 });
 
-app.get("/news", async (req, res) => {
-  req.dyContext.page.type = "HOMEPAGE";
-  const apiResponse = await DYAPI.choose(
-    req.userId,
-    req.sessionId,
-    req.dyContext,
-    ["BBC Recommendations Campaign"]
-  );
+app.use(async (req, _, next) => {
+  if (req.path.includes("article")) {
+    await callApi(req);
+  }
+  next();
+});
+
+app.get("/news", (req, res) => {
   res.sendFile(path.join(views, "index.html"));
 });
 
