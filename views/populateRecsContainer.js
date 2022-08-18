@@ -17,7 +17,7 @@ const recsResponse = fetch("/recs")
           <div>
             <a
               class="gs-c-promo-heading gs-o-faux-block-link__overlay-link gel-pica-bold nw-o-link-split__anchor"
-              href="${rec.url}"
+              href="${rec.url}?type=${rec.categories[0]}"
               data-dy-slot-id="${rec.slotId}"
               ><div
                 class="gs-c-promo-image gs-u-display-none gs-u-display-block@xs gel-1/2@xs gel-1/1@m"
