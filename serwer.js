@@ -10,7 +10,6 @@ const router = express.Router();
 const port = 3001;
 const DYAPI = require("./DYAPI");
 const reportClickRouter = require("./reportClick");
-const { fstat } = require("fs");
 
 var views = path.join(__dirname, "views");
 var views1 = path.join(__dirname, "views1");

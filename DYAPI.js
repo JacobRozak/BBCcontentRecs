@@ -95,6 +95,7 @@ async function reportClick(userId, sessionId, engagement) {
       json: true,
     };
     const response = await request(options);
+    console.log("server-side report click response:", response);
     console.log("Engagement reported: " + JSON.stringify(engagement));
   } catch (e) {
     console.error(`ERROR IN ENGAGEMENT: ${e.message}`);
