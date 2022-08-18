@@ -95,6 +95,10 @@ app.get("/news", (req, res) => {
 
 app.use("/reportClick", reportClickRouter);
 
+app.get("/populateRecsContainer.js", (req, res) => {
+  res.sendFile(path.join(views, "populateRecsContainer.js"));
+});
+
 app.get("/news/article1", (req, res) => {
   res.sendFile(path.join(views, "article1.html"));
 });
@@ -122,12 +126,6 @@ app.get("/sport/article2", (req, res) => {
 });
 app.get("/sport/article3", (req, res) => {
   res.sendFile(path.join(views1, "article8.html"));
-});
-app.get("/sport/article4", (req, res) => {
-  res.sendFile(path.join(views1, "article9.html"));
-});
-app.get("/sport/article5", (req, res) => {
-  res.sendFile(path.join(views1, "article10.html"));
 });
 app.get("/feed", (req, res) => {
   res.sendFile(path.join(views, "feed.json"));
