@@ -5,7 +5,8 @@ const recsResponse = fetch("/recs")
     let allRecs = "";
     for (rec of json["BBC Recommendations Campaign"]) {
       const htmlString = `<div
-      class="gel-layout__item gel-1/3@m gel-1/4@l gel-1/5@xxl nw-o-keyline nw-o-no-keyline@m"
+      class="gel-layout__item gel-1/3@m gel-1/4@l gel-1/5@xxl nw-o-keyline nw-o-no-keyline@m" 
+      style="margin-bottom: 10px;"
       >
       <div
         class="gs-c-promo nw-c-promo gs-o-faux-block-link gs-u-pb gs-u-pb+@m nw-p-default gs-c-promo--inline gs-c-promo--stacked@m gs-c-promo--flex"
@@ -17,6 +18,7 @@ const recsResponse = fetch("/recs")
           <div>
             <a
               class="gs-c-promo-heading gs-o-faux-block-link__overlay-link gel-pica-bold nw-o-link-split__anchor"
+              style="text-decoration: none;"
               href="${rec.url}?type=${rec.categories[0]}&id=${
         rec.id || rec.sku || rec.group_id
       }&domain=${rec.post_type}"
