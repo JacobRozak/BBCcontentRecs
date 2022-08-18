@@ -11,8 +11,9 @@ const port = 3001;
 const DYAPI = require("./DYAPI");
 const reportClickRouter = require("./reportClick");
 
-var views = path.join(__dirname, "views");
-var views1 = path.join(__dirname, "views1");
+var news_views = path.join(__dirname, "news_views");
+var sports_views = path.join(__dirname, "sports_views");
+var iplayer_views = path.join(__dirname, "iplayer_views");
 
 const callApi = async (req) => {
   req.dyContext.page.type = "HOMEPAGE";
@@ -90,49 +91,77 @@ app.use(async (req, _, next) => {
 });
 
 app.get("/news", (req, res) => {
-  res.sendFile(path.join(views, "index.html"));
+  res.sendFile(path.join(news_views, "index.html"));
 });
 
 app.use("/reportClick", reportClickRouter);
 
 app.get("/populateRecsContainer.js", (req, res) => {
-  res.sendFile(path.join(views, "populateRecsContainer.js"));
+  res.sendFile(path.join(news_views, "populateRecsContainer.js"));
 });
 
 app.get("/news/article1", (req, res) => {
-  res.sendFile(path.join(views, "article1.html"));
+  res.sendFile(path.join(news_views, "article1.html"));
 });
 app.get("/news/article2", (req, res) => {
-  res.sendFile(path.join(views, "article2.html"));
+  res.sendFile(path.join(news_views, "article2.html"));
 });
 app.get("/news/article3", (req, res) => {
-  res.sendFile(path.join(views, "article3.html"));
+  res.sendFile(path.join(news_views, "article3.html"));
 });
 app.get("/news/article4", (req, res) => {
-  res.sendFile(path.join(views, "article4.html"));
+  res.sendFile(path.join(news_views, "article4.html"));
 });
 app.get("/news/article5", (req, res) => {
-  res.sendFile(path.join(views, "article5.html"));
+  res.sendFile(path.join(news_views, "article5.html"));
 });
 
 app.get("/sport", (req, res) => {
-  res.sendFile(path.join(views1, "index1.html"));
+  res.sendFile(path.join(sports_views, "index1.html"));
 });
 app.get("/sport/article1", (req, res) => {
-  res.sendFile(path.join(views1, "article6.html"));
+  res.sendFile(path.join(sports_views, "article6.html"));
 });
 app.get("/sport/article2", (req, res) => {
-  res.sendFile(path.join(views1, "article7.html"));
+  res.sendFile(path.join(sports_views, "article7.html"));
 });
 app.get("/sport/article3", (req, res) => {
-  res.sendFile(path.join(views1, "article8.html"));
+  res.sendFile(path.join(sports_views, "article8.html"));
 });
+
+app.get("/sport/article4", (sports_views, res) => {
+  res.sendFile(path.join(sports_views, "article9.html"));
+});
+app.get("/sport/article5", (req, res) => {
+  res.sendFile(path.join(sports_views, "article10.html"));
+});
+
+app.get("/iplayer", (req, res) => {
+  res.sendFile(path.join(iplayer_views, "index2.html"));
+});
+
+app.get("/iplayer/article9", (req, res) => {
+  res.sendFile(path.join(iplayer_views, "article10.html"));
+});
+
+app.get("/iplayer/article10", (req, res) => {
+  res.sendFile(path.join(iplayer_views, "article11.html"));
+});
+
+app.get("/iplayer/article11", (req, res) => {
+  res.sendFile(path.join(iplayer_views, "article12.html"));
+});
+
+app.get("/iplayer/article12", (req, res) => {
+  res.sendFile(path.join(iplayer_views, "article13.html"));
+});
+
 app.get("/feed", (req, res) => {
-  res.sendFile(path.join(views, "feed.json"));
+  res.sendFile(path.join(news_views, "feed.json"));
 });
 
 app.get("/recs", (req, res) => {
-  res.sendFile(path.join(views, "recs.json"));
+  res.sendFile(path.join(news_views, "recs.json"));
 });
 
 app.listen(port, () => {

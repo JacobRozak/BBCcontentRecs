@@ -37,7 +37,7 @@ async function choose(userId, sessionId, dyContext, selectors = []) {
     variations = response.choices.reduce(flattenCampaignData, {});
     try {
       await fs.writeFile(
-        "./views/recs.json",
+        "./news_views/recs.json",
         JSON.stringify(variations, null, 2)
       );
     } catch (err) {

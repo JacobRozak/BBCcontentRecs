@@ -1,0 +1,68 @@
+{
+  "BBC Recommendations Campaign": [
+    {
+      "keywords": [],
+      "image_url": "https://static01.nyt.com/images/2022/05/10/science/28DOGS-BEHAVIOR1/28DOGS-BEHAVIOR1-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
+      "title": "They’re All Good Dogs, and It Has Nothing to Do With Their Breed",
+      "publish_time": "2022-08-15T00:00:00",
+      "categories": [
+        "dogs"
+      ],
+      "post_type": "dog",
+      "in_stock": true,
+      "id": "1",
+      "group_id": "1",
+      "url": "/news/article2",
+      "sku": "1",
+      "slotId": "l4SobG9jYXRpb27ZLGh0dHA6Ly9sb2NhbGhvc3QvaXBsYXllci9hcnRpY2xlMTA/dHlwZT1kb2dzqHJlZmVycmVyvWh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS9pcGxheWVypGRhdGGQpHR5cGWoSE9NRVBBR0XNh9zOAALcJ8IAoTEB*l7M0Mzc1NDA4MDM1MzI0MjU0NDkzzgAUZcqoMTE1NTA2MTMBkJHOAaI3jqU3NDc0NA=="
+    },
+    {
+      "keywords": [],
+      "image_url": "https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/1180/cached.offlinehbpl.hbpl.co.uk/news/NST/guide-dog-puppy.jpg",
+      "title": "Income at Guide Dogs reaches record high",
+      "publish_time": "2022-08-15T00:00:00",
+      "categories": [
+        "dogs"
+      ],
+      "post_type": "dog",
+      "in_stock": true,
+      "id": "3",
+      "group_id": "3",
+      "url": "/news/article4",
+      "sku": "3",
+      "slotId": "l4SobG9jYXRpb27ZLGh0dHA6Ly9sb2NhbGhvc3QvaXBsYXllci9hcnRpY2xlMTA/dHlwZT1kb2dzqHJlZmVycmVyvWh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS9pcGxheWVypGRhdGGQpHR5cGWoSE9NRVBBR0XNh9zOAALcJ8IBoTMB*l7M0Mzc1NDA4MDM1MzI0MjU0NDkzzgAUZcqoMTE1NTA2MTMBkJHOAaI3jqU3NDc0NA=="
+    },
+    {
+      "keywords": [],
+      "image_url": "https://cdn.vox-cdn.com/thumbor/hJqwGRBcPJkbspVRe9gw1B8XQgc=/0x87:1000x754/1820x1213/filters:focal(0x87:1000x754):format(webp)/cdn.vox-cdn.com/assets/951926/football-dog.jpg",
+      "title": "Dog Football! Which Breeds Are Best Suited For The Gridiron?",
+      "publish_time": "2022-08-15T00:00:00",
+      "categories": [
+        "dogs"
+      ],
+      "post_type": "dog",
+      "in_stock": true,
+      "id": "5",
+      "group_id": "5",
+      "url": "/sport/article1",
+      "sku": "5",
+      "slotId": "l4SobG9jYXRpb27ZLGh0dHA6Ly9sb2NhbGhvc3QvaXBsYXllci9hcnRpY2xlMTA/dHlwZT1kb2dzqHJlZmVycmVyvWh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS9pcGxheWVypGRhdGGQpHR5cGWoSE9NRVBBR0XNh9zOAALcJ8ICoTUB*l7M0Mzc1NDA4MDM1MzI0MjU0NDkzzgAUZcqoMTE1NTA2MTMBkJHOAaI3jqU3NDc0NA=="
+    },
+    {
+      "keywords": [],
+      "image_url": "https://www.dogtime.com/assets/uploads/2018/04/dogs-good-at-sports-1.jpg",
+      "title": "Paw-mazing Pets: These Dogs Are Way Better At Sports Than Most Of Us [VIDEOS]",
+      "publish_time": "2022-08-15T00:00:00",
+      "categories": [
+        "dogs"
+      ],
+      "post_type": "dog",
+      "in_stock": true,
+      "id": "7",
+      "group_id": "7",
+      "url": "/sport/article3",
+      "sku": "7",
+      "slotId": "l4SobG9jYXRpb27ZLGh0dHA6Ly9sb2NhbGhvc3QvaXBsYXllci9hcnRpY2xlMTA/dHlwZT1kb2dzqHJlZmVycmVyvWh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS9pcGxheWVypGRhdGGQpHR5cGWoSE9NRVBBR0XNh9zOAALcJ8IDoTcB*l7M0Mzc1NDA4MDM1MzI0MjU0NDkzzgAUZcqoMTE1NTA2MTMBkJHOAaI3jqU3NDc0NA=="
+    }
+  ]
+}
