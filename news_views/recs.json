@@ -1,0 +1,68 @@
+{
+  "BBC Recommendations Campaign": [
+    {
+      "keywords": [],
+      "image_url": "https://static01.nyt.com/images/2019/10/01/science/00SCI-CATS1/merlin_102054072_34962289-a2a4-4c52-9969-4b2719347e76-superJumbo.jpg?quality=75&auto=webp",
+      "title": "Cats Like People! (Some People, Anyway)",
+      "publish_time": "2022-08-15T00:00:00",
+      "categories": [
+        "cats"
+      ],
+      "post_type": "cat",
+      "in_stock": true,
+      "id": "0",
+      "group_id": "0",
+      "url": "https://839a-2a02-6b61-606c-0-3dde-ecd4-a250-2dc2.eu.ngrok.io/news/article1",
+      "sku": "0",
+      "slotId": "l4SobG9jYXRpb27ZKGh0dHA6Ly9sb2NhbGhvc3QvbmV3cy9hcnRpY2xlMT90eXBlPWNhdHOocmVmZXJyZXK6aHR0cDovL2xvY2FsaG9zdDozMDAxL25ld3OkZGF0YZCkdHlwZahIT01FUEFHRc2H3M4AAtwnwgChMAE=*l7QtNzU3Nzg4NjI3MDU5OTgwMjEwN84AFGXKqDExNTQ4MTAwAZCRzgGiN46lNzQ3NDQ="
+    },
+    {
+      "keywords": [],
+      "image_url": "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322716/relaxed-ginger-cat.jpg",
+      "title": "Cat lovers, this is how a feline friend can boost your health",
+      "publish_time": "2022-08-15T00:00:00",
+      "categories": [
+        "cats"
+      ],
+      "post_type": "cat",
+      "in_stock": true,
+      "id": "2",
+      "group_id": "2",
+      "url": "https://839a-2a02-6b61-606c-0-3dde-ecd4-a250-2dc2.eu.ngrok.io/news/article3",
+      "sku": "2",
+      "slotId": "l4SobG9jYXRpb27ZKGh0dHA6Ly9sb2NhbGhvc3QvbmV3cy9hcnRpY2xlMT90eXBlPWNhdHOocmVmZXJyZXK6aHR0cDovL2xvY2FsaG9zdDozMDAxL25ld3OkZGF0YZCkdHlwZahIT01FUEFHRc2H3M4AAtwnwgGhMgE=*l7QtNzU3Nzg4NjI3MDU5OTgwMjEwN84AFGXKqDExNTQ4MTAwAZCRzgGiN46lNzQ3NDQ="
+    },
+    {
+      "keywords": [],
+      "image_url": "https://www.animalfriends.co.uk/siteassets/media/images/article-images/cat-articles/51_afi_article1_the-secret-language-of-cats.png",
+      "title": "Secret lives of cats",
+      "publish_time": "2022-08-15T00:00:00",
+      "categories": [
+        "cats"
+      ],
+      "post_type": "cat",
+      "in_stock": true,
+      "id": "4",
+      "group_id": "4",
+      "url": "https://839a-2a02-6b61-606c-0-3dde-ecd4-a250-2dc2.eu.ngrok.io/news/article5",
+      "sku": "4",
+      "slotId": "l4SobG9jYXRpb27ZKGh0dHA6Ly9sb2NhbGhvc3QvbmV3cy9hcnRpY2xlMT90eXBlPWNhdHOocmVmZXJyZXK6aHR0cDovL2xvY2FsaG9zdDozMDAxL25ld3OkZGF0YZCkdHlwZahIT01FUEFHRc2H3M4AAtwnwgKhNAE=*l7QtNzU3Nzg4NjI3MDU5OTgwMjEwN84AFGXKqDExNTQ4MTAwAZCRzgGiN46lNzQ3NDQ="
+    },
+    {
+      "keywords": [],
+      "image_url": "https://ultrapet.com/wp-content/uploads/2017/03/Cat-BBALL.jpg",
+      "title": "Final Four in the Home State!",
+      "publish_time": "2022-08-15T00:00:00",
+      "categories": [
+        "cats"
+      ],
+      "post_type": "cat",
+      "in_stock": true,
+      "id": "6",
+      "group_id": "6",
+      "url": "https://839a-2a02-6b61-606c-0-3dde-ecd4-a250-2dc2.eu.ngrok.io/sport/article2",
+      "sku": "6",
+      "slotId": "l4SobG9jYXRpb27ZKGh0dHA6Ly9sb2NhbGhvc3QvbmV3cy9hcnRpY2xlMT90eXBlPWNhdHOocmVmZXJyZXK6aHR0cDovL2xvY2FsaG9zdDozMDAxL25ld3OkZGF0YZCkdHlwZahIT01FUEFHRc2H3M4AAtwnwgOhNgE=*l7QtNzU3Nzg4NjI3MDU5OTgwMjEwN84AFGXKqDExNTQ4MTAwAZCRzgGiN46lNzQ3NDQ="
+    }
+  ]
+}
