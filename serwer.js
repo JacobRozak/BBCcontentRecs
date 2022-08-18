@@ -10,7 +10,6 @@ const router = express.Router();
 const port = 3001;
 const DYAPI = require("./DYAPI");
 const reportClickRouter = require("./reportClick");
-const { fstat } = require("fs");
 
 var news_views = path.join(__dirname, "news_views");
 var sports_views = path.join(__dirname, "sports_views");
@@ -97,6 +96,10 @@ app.get("/news", (req, res) => {
 
 app.use("/reportClick", reportClickRouter);
 
+app.get("/populateRecsContainer.js", (req, res) => {
+  res.sendFile(path.join(news_views, "populateRecsContainer.js"));
+});
+
 app.get("/news/article1", (req, res) => {
   res.sendFile(path.join(news_views, "article1.html"));
 });
@@ -125,8 +128,9 @@ app.get("/sport/article2", (req, res) => {
 app.get("/sport/article3", (req, res) => {
   res.sendFile(path.join(sports_views, "article8.html"));
 });
+
 app.get("/sport/article4", (sports_views, res) => {
-  res.sendFile(path.join(views1, "article9.html"));
+  res.sendFile(path.join(sports_views, "article9.html"));
 });
 app.get("/sport/article5", (req, res) => {
   res.sendFile(path.join(sports_views, "article10.html"));

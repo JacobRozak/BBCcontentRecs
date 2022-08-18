@@ -37,7 +37,7 @@ async function choose(userId, sessionId, dyContext, selectors = []) {
     variations = response.choices.reduce(flattenCampaignData, {});
     try {
       await fs.writeFile(
-        "./views/recs.json",
+        "./news_views/recs.json",
         JSON.stringify(variations, null, 2)
       );
     } catch (err) {
@@ -95,6 +95,7 @@ async function reportClick(userId, sessionId, engagement) {
       json: true,
     };
     const response = await request(options);
+    console.log("server-side report click response:", response);
     console.log("Engagement reported: " + JSON.stringify(engagement));
   } catch (e) {
     console.error(`ERROR IN ENGAGEMENT: ${e.message}`);
