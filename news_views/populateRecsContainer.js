@@ -3,10 +3,10 @@ const recsResponse = fetch("/recs")
   .then((response) => response.json())
   .then((json) => {
     let allRecs = "";
-    let shuffled = json["BBC Recommendations Campaign"].sort(() => Math.random() - 0.5).slice(0,4);
-    for (rec of shuffled) {
+    for (rec of json["BBC Recommendations Campaign"]) {
       const htmlString = `<div
       class="gel-layout__item gel-1/3@m gel-1/4@l gel-1/5@xxl nw-o-keyline nw-o-no-keyline@m RBcontainer"
+      style="margin-bottom: 10px;"
       >
       <div
         class="gs-c-promo nw-c-promo gs-o-faux-block-link gs-u-pb gs-u-pb+@m nw-p-default gs-c-promo--inline gs-c-promo--stacked@m gs-c-promo--flex"
@@ -18,7 +18,10 @@ const recsResponse = fetch("/recs")
           <div>
             <a
               class="gs-c-promo-heading gs-o-faux-block-link__overlay-link gel-pica-bold nw-o-link-split__anchor"
-              href="${rec.url}?type=${rec.categories[0]}"
+              style="text-decoration: none;"
+              href="${rec.url}?type=${rec.categories[0]}&id=${
+        rec.id || rec.sku || rec.group_id
+      }&domain=${rec.post_type}"
               data-dy-slot-id="${rec.slotId}"
               ><div
                 class="gs-c-promo-image gs-u-display-none gs-u-display-block@xs gel-1/2@xs gel-1/1@m"
@@ -74,15 +77,15 @@ const recsResponse = fetch("/recs")
       });
   });
 
-  if (window.location.href.match('iplayer')){
-    setTimeout(()=>{
-      document.querySelectorAll('.RBtext').forEach((e)=>{
-        e.style.fontSize = '20px'
-        e.style.textDecoration = "none";
-        e.style.color = '#ff4c98'
-      })
-      document.querySelectorAll('.RBcontainer').forEach((e)=>{
-        e.style.marginLeft = '30px'
-      })
-    },300)
-  }
+if (window.location.href.match("iplayer")) {
+  setTimeout(() => {
+    document.querySelectorAll(".RBtext").forEach((e) => {
+      e.style.fontSize = "20px";
+      e.style.textDecoration = "none";
+      e.style.color = "#ff4c98";
+    });
+    document.querySelectorAll(".RBcontainer").forEach((e) => {
+      e.style.marginLeft = "30px";
+    });
+  }, 300);
+}

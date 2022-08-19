@@ -16,7 +16,8 @@ var sports_views = path.join(__dirname, "sports_views");
 var iplayer_views = path.join(__dirname, "iplayer_views");
 
 const callApi = async (req) => {
-  req.dyContext.page.type = "HOMEPAGE";
+  req.dyContext.page.type = "POST";
+  req.dyContext.page.data.push(req.query.id); // need a new way to find ID if we remove query strings - redo routing so "articleX" is replaced with the ID?
   const apiResponse = await DYAPI.choose(
     req.userId,
     req.sessionId,
@@ -85,6 +86,7 @@ app.use((req, _res, next) => {
 
 app.use(async (req, _, next) => {
   if (req.path.includes("article")) {
+    // console.log(req);  // used to find req property containing ID
     await callApi(req);
   }
   next();

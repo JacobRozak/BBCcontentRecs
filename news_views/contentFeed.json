@@ -6,7 +6,7 @@
     "publish_time": "15/08/2022",
     "categories": "cats",
     "image_url": "https://static01.nyt.com/images/2019/10/01/science/00SCI-CATS1/merlin_102054072_34962289-a2a4-4c52-9969-4b2719347e76-superJumbo.jpg?quality=75&auto=webp",
-    "post_type": "cat"
+    "post_type": "news"
   },
   {
     "id": "1",
@@ -15,7 +15,7 @@
     "publish_time": "15/08/2022",
     "categories": "dogs",
     "image_url": "https://static01.nyt.com/images/2022/05/10/science/28DOGS-BEHAVIOR1/28DOGS-BEHAVIOR1-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
-    "post_type": "dog"
+    "post_type": "news"
   },
   {
     "id": "2",
@@ -24,7 +24,7 @@
     "publish_time": "15/08/2022",
     "categories": "cats",
     "image_url": "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322716/relaxed-ginger-cat.jpg",
-    "post_type": "cat"
+    "post_type": "news"
   },
   {
     "id": "3",
@@ -33,7 +33,7 @@
     "publish_time": "15/08/2022",
     "categories": "dogs",
     "image_url": "https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/1180/cached.offlinehbpl.hbpl.co.uk/news/NST/guide-dog-puppy.jpg",
-    "post_type": "dog"
+    "post_type": "news"
   },
   {
     "id": "4",
@@ -42,7 +42,7 @@
     "publish_time": "15/08/2022",
     "categories": "cats",
     "image_url": "https://www.animalfriends.co.uk/siteassets/media/images/article-images/cat-articles/51_afi_article1_the-secret-language-of-cats.png",
-    "post_type": "cat"
+    "post_type": "news"
   },
   {
     "id": "5",
@@ -51,7 +51,7 @@
     "publish_time": "15/08/2022",
     "categories": "dogs",
     "image_url": "https://cdn.vox-cdn.com/thumbor/hJqwGRBcPJkbspVRe9gw1B8XQgc=/0x87:1000x754/1820x1213/filters:focal(0x87:1000x754):format(webp)/cdn.vox-cdn.com/assets/951926/football-dog.jpg",
-    "post_type": "dog"
+    "post_type": "sport"
   },
   {
     "id": "6",
@@ -60,7 +60,7 @@
     "publish_time": "15/08/2022",
     "categories": "cats",
     "image_url": "https://ultrapet.com/wp-content/uploads/2017/03/Cat-BBALL.jpg",
-    "post_type": "cat"
+    "post_type": "sport"
   },
   {
     "id": "7",
@@ -69,7 +69,7 @@
     "publish_time": "15/08/2022",
     "categories": "dogs",
     "image_url": "https://www.dogtime.com/assets/uploads/2018/04/dogs-good-at-sports-1.jpg",
-    "post_type": "dog"
+    "post_type": "sport"
   },
   {
     "id": "8",
@@ -78,7 +78,7 @@
     "publish_time": "15/08/2022",
     "categories": "cats",
     "image_url": "https://i.ytimg.com/vi/iRXJXaLV0n4/hqdefault.jpg",
-    "post_type": "cat"
+    "post_type": "iplayer"
   },
   {
     "id": "9",
@@ -87,7 +87,7 @@
     "publish_time": "15/08/2022",
     "categories": "dogs",
     "image_url": "https://media.services.cinergy.ch/media/box1600/25e03fb848f42509cd2d4a3a038ec30df22411b3.jpg",
-    "post_type": "dog"
+    "post_type": "iplayer"
   },
   {
     "id": "10",
@@ -96,7 +96,7 @@
     "publish_time": "15/08/2022",
     "categories": "cats",
     "image_url": "https://m.media-amazon.com/images/M/MV5BOTA0MDliYzMtYTNhMS00MjkyLWExMGItYzY5MjFhOTNmZjRhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
-    "post_type": "cat"
+    "post_type": "iplayer"
   },
   {
     "id": "11",
@@ -105,6 +105,6 @@
     "publish_time": "15/08/2022",
     "categories": "dogs",
     "image_url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/show-dogs-dog-movies-1543604356.jpg",
-    "post_type": "dog"
+    "post_type": "iplayer"
   }
 ]
