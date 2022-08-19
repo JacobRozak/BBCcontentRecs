@@ -70,5 +70,41 @@
     "categories": "dogs",
     "image_url": "https://www.dogtime.com/assets/uploads/2018/04/dogs-good-at-sports-1.jpg",
     "post_type": "dog"
+  },
+  {
+    "id": "8",
+    "title": "Plank, the cat plummer",
+    "url": "/iplayer/article9",
+    "publish_time": "15/08/2022",
+    "categories": "cats",
+    "image_url": "https://i.ytimg.com/vi/iRXJXaLV0n4/hqdefault.jpg",
+    "post_type": "cat"
+  },
+  {
+    "id": "9",
+    "title": "DOG",
+    "url": "/iplayer/article10",
+    "publish_time": "15/08/2022",
+    "categories": "dogs",
+    "image_url": "https://media.services.cinergy.ch/media/box1600/25e03fb848f42509cd2d4a3a038ec30df22411b3.jpg",
+    "post_type": "dog"
+  },
+  {
+    "id": "10",
+    "title": "Cats eye",
+    "url": "/iplayer/article11",
+    "publish_time": "15/08/2022",
+    "categories": "cats",
+    "image_url": "https://m.media-amazon.com/images/M/MV5BOTA0MDliYzMtYTNhMS00MjkyLWExMGItYzY5MjFhOTNmZjRhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+    "post_type": "cat"
+  },
+  {
+    "id": "11",
+    "title": "Show Dogs",
+    "url": "/iplayer/article12",
+    "publish_time": "15/08/2022",
+    "categories": "dogs",
+    "image_url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/show-dogs-dog-movies-1543604356.jpg",
+    "post_type": "dog"
   }
 ]

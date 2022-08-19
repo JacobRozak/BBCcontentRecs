@@ -2,67 +2,99 @@
   "BBC Recommendations Campaign": [
     {
       "keywords": [],
-      "image_url": "https://static01.nyt.com/images/2022/05/10/science/28DOGS-BEHAVIOR1/28DOGS-BEHAVIOR1-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
-      "title": "They’re All Good Dogs, and It Has Nothing to Do With Their Breed",
+      "image_url": "https://static01.nyt.com/images/2019/10/01/science/00SCI-CATS1/merlin_102054072_34962289-a2a4-4c52-9969-4b2719347e76-superJumbo.jpg?quality=75&auto=webp",
+      "title": "Cats Like People! (Some People, Anyway)",
       "publish_time": "2022-08-15T00:00:00",
       "categories": [
-        "dogs"
+        "cats"
       ],
-      "post_type": "dog",
+      "post_type": "cat",
       "in_stock": true,
-      "id": "1",
-      "group_id": "1",
-      "url": "/news/article2",
-      "sku": "1",
-      "slotId": "l4SobG9jYXRpb27ZLGh0dHA6Ly9sb2NhbGhvc3QvaXBsYXllci9hcnRpY2xlMTA/dHlwZT1kb2dzqHJlZmVycmVyvWh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS9pcGxheWVypGRhdGGQpHR5cGWoSE9NRVBBR0XNh9zOAALcJ8IAoTEB*l7M0Mzc1NDA4MDM1MzI0MjU0NDkzzgAUZcqoMTE1NTA2MTMBkJHOAaI3jqU3NDc0NA=="
+      "id": "0",
+      "group_id": "0",
+      "url": "/news/article1",
+      "sku": "0",
+      "slotId": "l4SobG9jYXRpb27ZKWh0dHA6Ly9sb2NhbGhvc3Qvc3BvcnQvYXJ0aWNsZTI/dHlwZT1jYXRzqHJlZmVycmVy2TBodHRwOi8vbG9jYWxob3N0OjMwMDEvaXBsYXllci9hcnRpY2xlOT90eXBlPWNhdHOkZGF0YZCkdHlwZahIT01FUEFHRc2H3M4AAtwnwgChMAE=*l7QtMjMxMjM3NDk0MTgzMzcxMTQwMs4AFGXKqDExNTUyODYwAZCRzgGiN46lNzQ3NDQ="
     },
     {
       "keywords": [],
-      "image_url": "https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/1180/cached.offlinehbpl.hbpl.co.uk/news/NST/guide-dog-puppy.jpg",
-      "title": "Income at Guide Dogs reaches record high",
+      "image_url": "https://m.media-amazon.com/images/M/MV5BOTA0MDliYzMtYTNhMS00MjkyLWExMGItYzY5MjFhOTNmZjRhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+      "title": "Cats eye",
       "publish_time": "2022-08-15T00:00:00",
       "categories": [
-        "dogs"
+        "cats"
       ],
-      "post_type": "dog",
+      "post_type": "cat",
       "in_stock": true,
-      "id": "3",
-      "group_id": "3",
-      "url": "/news/article4",
-      "sku": "3",
-      "slotId": "l4SobG9jYXRpb27ZLGh0dHA6Ly9sb2NhbGhvc3QvaXBsYXllci9hcnRpY2xlMTA/dHlwZT1kb2dzqHJlZmVycmVyvWh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS9pcGxheWVypGRhdGGQpHR5cGWoSE9NRVBBR0XNh9zOAALcJ8IBoTMB*l7M0Mzc1NDA4MDM1MzI0MjU0NDkzzgAUZcqoMTE1NTA2MTMBkJHOAaI3jqU3NDc0NA=="
+      "id": "10",
+      "group_id": "10",
+      "url": "/iplayer/article11",
+      "sku": "10",
+      "slotId": "l4SobG9jYXRpb27ZKWh0dHA6Ly9sb2NhbGhvc3Qvc3BvcnQvYXJ0aWNsZTI/dHlwZT1jYXRzqHJlZmVycmVy2TBodHRwOi8vbG9jYWxob3N0OjMwMDEvaXBsYXllci9hcnRpY2xlOT90eXBlPWNhdHOkZGF0YZCkdHlwZahIT01FUEFHRc2H3M4AAtwnwgGiMTAB*l7QtMjMxMjM3NDk0MTgzMzcxMTQwMs4AFGXKqDExNTUyODYwAZCRzgGiN46lNzQ3NDQ="
     },
     {
       "keywords": [],
-      "image_url": "https://cdn.vox-cdn.com/thumbor/hJqwGRBcPJkbspVRe9gw1B8XQgc=/0x87:1000x754/1820x1213/filters:focal(0x87:1000x754):format(webp)/cdn.vox-cdn.com/assets/951926/football-dog.jpg",
-      "title": "Dog Football! Which Breeds Are Best Suited For The Gridiron?",
+      "image_url": "https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322716/relaxed-ginger-cat.jpg",
+      "title": "Cat lovers, this is how a feline friend can boost your health",
       "publish_time": "2022-08-15T00:00:00",
       "categories": [
-        "dogs"
+        "cats"
       ],
-      "post_type": "dog",
+      "post_type": "cat",
       "in_stock": true,
-      "id": "5",
-      "group_id": "5",
-      "url": "/sport/article1",
-      "sku": "5",
-      "slotId": "l4SobG9jYXRpb27ZLGh0dHA6Ly9sb2NhbGhvc3QvaXBsYXllci9hcnRpY2xlMTA/dHlwZT1kb2dzqHJlZmVycmVyvWh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS9pcGxheWVypGRhdGGQpHR5cGWoSE9NRVBBR0XNh9zOAALcJ8ICoTUB*l7M0Mzc1NDA4MDM1MzI0MjU0NDkzzgAUZcqoMTE1NTA2MTMBkJHOAaI3jqU3NDc0NA=="
+      "id": "2",
+      "group_id": "2",
+      "url": "/news/article3",
+      "sku": "2",
+      "slotId": "l4SobG9jYXRpb27ZKWh0dHA6Ly9sb2NhbGhvc3Qvc3BvcnQvYXJ0aWNsZTI/dHlwZT1jYXRzqHJlZmVycmVy2TBodHRwOi8vbG9jYWxob3N0OjMwMDEvaXBsYXllci9hcnRpY2xlOT90eXBlPWNhdHOkZGF0YZCkdHlwZahIT01FUEFHRc2H3M4AAtwnwgKhMgE=*l7QtMjMxMjM3NDk0MTgzMzcxMTQwMs4AFGXKqDExNTUyODYwAZCRzgGiN46lNzQ3NDQ="
     },
     {
       "keywords": [],
-      "image_url": "https://www.dogtime.com/assets/uploads/2018/04/dogs-good-at-sports-1.jpg",
-      "title": "Paw-mazing Pets: These Dogs Are Way Better At Sports Than Most Of Us [VIDEOS]",
+      "image_url": "https://www.animalfriends.co.uk/siteassets/media/images/article-images/cat-articles/51_afi_article1_the-secret-language-of-cats.png",
+      "title": "Secret lives of cats",
       "publish_time": "2022-08-15T00:00:00",
       "categories": [
-        "dogs"
+        "cats"
       ],
-      "post_type": "dog",
+      "post_type": "cat",
       "in_stock": true,
-      "id": "7",
-      "group_id": "7",
-      "url": "/sport/article3",
-      "sku": "7",
-      "slotId": "l4SobG9jYXRpb27ZLGh0dHA6Ly9sb2NhbGhvc3QvaXBsYXllci9hcnRpY2xlMTA/dHlwZT1kb2dzqHJlZmVycmVyvWh0dHA6Ly9sb2NhbGhvc3Q6MzAwMS9pcGxheWVypGRhdGGQpHR5cGWoSE9NRVBBR0XNh9zOAALcJ8IDoTcB*l7M0Mzc1NDA4MDM1MzI0MjU0NDkzzgAUZcqoMTE1NTA2MTMBkJHOAaI3jqU3NDc0NA=="
+      "id": "4",
+      "group_id": "4",
+      "url": "/news/article5",
+      "sku": "4",
+      "slotId": "l4SobG9jYXRpb27ZKWh0dHA6Ly9sb2NhbGhvc3Qvc3BvcnQvYXJ0aWNsZTI/dHlwZT1jYXRzqHJlZmVycmVy2TBodHRwOi8vbG9jYWxob3N0OjMwMDEvaXBsYXllci9hcnRpY2xlOT90eXBlPWNhdHOkZGF0YZCkdHlwZahIT01FUEFHRc2H3M4AAtwnwgOhNAE=*l7QtMjMxMjM3NDk0MTgzMzcxMTQwMs4AFGXKqDExNTUyODYwAZCRzgGiN46lNzQ3NDQ="
+    },
+    {
+      "keywords": [],
+      "image_url": "https://ultrapet.com/wp-content/uploads/2017/03/Cat-BBALL.jpg",
+      "title": "Final Four in the Home State!",
+      "publish_time": "2022-08-15T00:00:00",
+      "categories": [
+        "cats"
+      ],
+      "post_type": "cat",
+      "in_stock": true,
+      "id": "6",
+      "group_id": "6",
+      "url": "/sport/article2",
+      "sku": "6",
+      "slotId": "l4SobG9jYXRpb27ZKWh0dHA6Ly9sb2NhbGhvc3Qvc3BvcnQvYXJ0aWNsZTI/dHlwZT1jYXRzqHJlZmVycmVy2TBodHRwOi8vbG9jYWxob3N0OjMwMDEvaXBsYXllci9hcnRpY2xlOT90eXBlPWNhdHOkZGF0YZCkdHlwZahIT01FUEFHRc2H3M4AAtwnwgShNgE=*l7QtMjMxMjM3NDk0MTgzMzcxMTQwMs4AFGXKqDExNTUyODYwAZCRzgGiN46lNzQ3NDQ="
+    },
+    {
+      "keywords": [],
+      "image_url": "https://i.ytimg.com/vi/iRXJXaLV0n4/hqdefault.jpg",
+      "title": "Plank, the cat plummer",
+      "publish_time": "2022-08-15T00:00:00",
+      "categories": [
+        "cats"
+      ],
+      "post_type": "cat",
+      "in_stock": true,
+      "id": "8",
+      "group_id": "8",
+      "url": "/iplayer/article9",
+      "sku": "8",
+      "slotId": "l4SobG9jYXRpb27ZKWh0dHA6Ly9sb2NhbGhvc3Qvc3BvcnQvYXJ0aWNsZTI/dHlwZT1jYXRzqHJlZmVycmVy2TBodHRwOi8vbG9jYWxob3N0OjMwMDEvaXBsYXllci9hcnRpY2xlOT90eXBlPWNhdHOkZGF0YZCkdHlwZahIT01FUEFHRc2H3M4AAtwnwgWhOAE=*l7QtMjMxMjM3NDk0MTgzMzcxMTQwMs4AFGXKqDExNTUyODYwAZCRzgGiN46lNzQ3NDQ="
     }
   ]
 }

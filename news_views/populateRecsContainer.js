@@ -3,9 +3,10 @@ const recsResponse = fetch("/recs")
   .then((response) => response.json())
   .then((json) => {
     let allRecs = "";
-    for (rec of json["BBC Recommendations Campaign"]) {
+    let shuffled = json["BBC Recommendations Campaign"].sort(() => Math.random() - 0.5).slice(0,4);
+    for (rec of shuffled) {
       const htmlString = `<div
-      class="gel-layout__item gel-1/3@m gel-1/4@l gel-1/5@xxl nw-o-keyline nw-o-no-keyline@m"
+      class="gel-layout__item gel-1/3@m gel-1/4@l gel-1/5@xxl nw-o-keyline nw-o-no-keyline@m RBcontainer"
       >
       <div
         class="gs-c-promo nw-c-promo gs-o-faux-block-link gs-u-pb gs-u-pb+@m nw-p-default gs-c-promo--inline gs-c-promo--stacked@m gs-c-promo--flex"
@@ -36,7 +37,7 @@ const recsResponse = fetch("/recs")
                 </div>
               </div>
               <h3
-                class="gs-c-promo-heading__title gel-pica-bold nw-o-link-split__text"
+                class="gs-c-promo-heading__title gel-pica-bold nw-o-link-split__text RBtext"
               >
                 ${rec.title}
               </h3></a
@@ -72,3 +73,16 @@ const recsResponse = fetch("/recs")
         });
       });
   });
+
+  if (window.location.href.match('iplayer')){
+    setTimeout(()=>{
+      document.querySelectorAll('.RBtext').forEach((e)=>{
+        e.style.fontSize = '20px'
+        e.style.textDecoration = "none";
+        e.style.color = '#ff4c98'
+      })
+      document.querySelectorAll('.RBcontainer').forEach((e)=>{
+        e.style.marginLeft = '30px'
+      })
+    },300)
+  }
