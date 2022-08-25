@@ -15,9 +15,9 @@ var news_views = path.join(__dirname, "news_views");
 var sports_views = path.join(__dirname, "sports_views");
 var iplayer_views = path.join(__dirname, "iplayer_views");
 
-const callApi = async (req) => {
+const callApi = async (req, contentId) => {
   req.dyContext.page.type = "POST";
-  req.dyContext.page.data.push(req.query.id); // need a new way to find ID if we remove query strings - redo routing so "articleX" is replaced with the ID?
+  req.dyContext.page.data = [contentId];
   const apiResponse = await DYAPI.choose(
     req.userId,
     req.sessionId,
@@ -85,9 +85,10 @@ app.use((req, _res, next) => {
 });
 
 app.use(async (req, _, next) => {
-  if (req.path.includes("article")) {
-    // console.log(req);  // used to find req property containing ID
-    await callApi(req);
+  const lastComponentOfPath = req.path.substring(req.path.lastIndexOf("/") + 1);
+  // ensure last component is numeric only (i.e. a content ID) before calling API
+  if (/^[0-9]+$/.test(lastComponentOfPath)) {
+    await callApi(req, lastComponentOfPath);
   }
   next();
 });
@@ -104,59 +105,52 @@ app.get("/populateRecsContainer.js", (req, res) => {
   res.sendFile(path.join(news_views, "populateRecsContainer.js"));
 });
 
-app.get("/news/article1", (req, res) => {
+app.get("/news/0", (req, res) => {
   res.sendFile(path.join(news_views, "article1.html"));
 });
-app.get("/news/article2", (req, res) => {
+app.get("/news/1", (req, res) => {
   res.sendFile(path.join(news_views, "article2.html"));
 });
-app.get("/news/article3", (req, res) => {
+app.get("/news/2", (req, res) => {
   res.sendFile(path.join(news_views, "article3.html"));
 });
-app.get("/news/article4", (req, res) => {
+app.get("/news/3", (req, res) => {
   res.sendFile(path.join(news_views, "article4.html"));
 });
-app.get("/news/article5", (req, res) => {
+app.get("/news/4", (req, res) => {
   res.sendFile(path.join(news_views, "article5.html"));
 });
 
 app.get("/sport", (req, res) => {
   res.sendFile(path.join(sports_views, "index1.html"));
 });
-app.get("/sport/article1", (req, res) => {
+app.get("/sport/5", (req, res) => {
   res.sendFile(path.join(sports_views, "article6.html"));
 });
-app.get("/sport/article2", (req, res) => {
+app.get("/sport/6", (req, res) => {
   res.sendFile(path.join(sports_views, "article7.html"));
 });
-app.get("/sport/article3", (req, res) => {
+app.get("/sport/7", (req, res) => {
   res.sendFile(path.join(sports_views, "article8.html"));
-});
-
-app.get("/sport/article4", (sports_views, res) => {
-  res.sendFile(path.join(sports_views, "article9.html"));
-});
-app.get("/sport/article5", (req, res) => {
-  res.sendFile(path.join(sports_views, "article10.html"));
 });
 
 app.get("/iplayer", (req, res) => {
   res.sendFile(path.join(iplayer_views, "index2.html"));
 });
 
-app.get("/iplayer/article9", (req, res) => {
+app.get("/iplayer/8", (req, res) => {
   res.sendFile(path.join(iplayer_views, "article10.html"));
 });
 
-app.get("/iplayer/article10", (req, res) => {
+app.get("/iplayer/9", (req, res) => {
   res.sendFile(path.join(iplayer_views, "article11.html"));
 });
 
-app.get("/iplayer/article11", (req, res) => {
+app.get("/iplayer/10", (req, res) => {
   res.sendFile(path.join(iplayer_views, "article12.html"));
 });
 
-app.get("/iplayer/article12", (req, res) => {
+app.get("/iplayer/11", (req, res) => {
   res.sendFile(path.join(iplayer_views, "article13.html"));
 });
 
