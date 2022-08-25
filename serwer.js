@@ -92,6 +92,8 @@ app.use(async (req, _, next) => {
   next();
 });
 
+app.get("/", (_, res) => res.redirect("/news"));
+
 app.get("/news", (req, res) => {
   res.sendFile(path.join(news_views, "index.html"));
 });
